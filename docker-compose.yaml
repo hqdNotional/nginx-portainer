@@ -2,7 +2,7 @@ version: "3.9"  # Adjust as needed
 
 services:
   nginx:
-    image: nginx:1.14.2
+    image: nginx:latest
     ports:
       - "80:80"  # Map container port 80 to host port 80
     volumes:
